@@ -1,0 +1,542 @@
+\documentclass[%
+    twoside,
+    a5paper,
+    openright,
+    10pt,
+    brazil
+]{abntex2}
+\usepackage{livros_crp}
+\usepackage[Export, calc]{adjustbox}
+\setasuspacing{\OnehalfSpacing}
+\usepackage[shortcuts]{extdash}
+
+\begin{document}
+
+\frontmatter
+\pagestyle{pretext}
+\backgroundsetup{contents={}}
+
+% Página de olho
+\vspace*{\fill}
+\begin{minipage}{0.3\textwidth}
+    \hfill
+\end{minipage}%
+\begin{minipage}{0.7\textwidth}
+\begin{flushleft}
+\fininha\LARGE
+\color{black!70}GUIA DE\\BOAS PRÁTICAS PARA\\
+\media\color{black}\textbf{APRESENTAÇÕES\\ACESSÍVEIS}
+\vspace*{2\baselineskip}
+
+\color{black!50}
+\Light
+\normalsize
+1º EDIÇÃO\\
+SÃO PAULO\\
+2025
+\end{flushleft}
+\end{minipage}
+\vspace*{\baselineskip}
+\begin{center}
+    \includegraphics[width = 0.75\linewidth]{assinatura_crp-preto.png}
+\end{center}
+\cleartooddpage
+
+% Folha de rosto
+\vspace*{\fill}
+\begin{minipage}{0.3\textwidth}
+    \hfill
+\end{minipage}%
+\begin{minipage}{0.7\textwidth}
+\begin{flushleft}
+\fininha\LARGE
+\color{crp2}GUIA DE\\BOAS PRÁTICAS PARA\\
+\media\color{crp1}\textbf{APRESENTAÇÕES\\ACESSÍVEIS}
+\vspace*{2\baselineskip}
+
+\color{crp3}
+\Light
+\normalsize
+1º EDIÇÃO\\
+SÃO PAULO\\
+2025
+\end{flushleft}
+\end{minipage}
+\vspace*{\baselineskip}
+\begin{center}
+    \includegraphics[width = 0.75\linewidth]{assinatura_crp-azul.png}
+\end{center}
+\cleartooddpage
+
+% Créditos institucionais
+\CreditoInstitucionalUm{XVIII Plenário}
+
+\CreditoInstitucionalDois{Diretoria}
+
+\begin{minipage}{3cm}
+{\null}
+\end{minipage}%
+\begin{minipage}{\linewidth-3cm}
+\begin{CreditoInstitucional}
+\CargoNosCreditos{%
+    Valéria Campinas Braunstein &  \textbf{presidenta} \\
+    Tayná Alencar Berti de Souza &  \textbf{vice-presidenta}\\
+    Fabiana Macena Luiz &  \textbf{secretária}\\
+    Genildo Gomes de Sousa &  \textbf{tesoureiro} \\
+}
+\end{CreditoInstitucional}
+\end{minipage}
+
+
+\CreditoInstitucionalDois{Conselheiras/os efetivas/os}
+
+\begin{minipage}{3cm}
+{\null}
+\end{minipage}%
+\begin{minipage}{\linewidth-3cm}
+\begin{CreditoInstitucional}
+\NomeNosCreditos{%
+    Cláudia Cristina Lofrano (CRP~06/44926)\\
+    Débora Nascimento Santos (CRP~06/144738)\\
+    Fabiana Macena Luiz (CRP~06/148611)\\
+    Gabriel Basílio Barbosa Costa (CRP~06/185699)\\
+    Genildo Gomes de Sousa (CRP~06/159297)\\
+    Luísa Thomazini de Freitas (CRP~06/159754)\\
+    Luke Ribeiro Mazzei França Barros (CRP~06/188231)\\
+    Marilia Capponi (CRP~06/81224)\\
+    Natali de Souza Nascimento (CRP~06/134212)\\
+    Paula Andréia de Carvalho Jonas (CRP~06/62340)\\
+    Renato Becks Gomes de Mendonça Garrafa (CRP~06/153663)\\
+    Rita Isabel Pereira Alves (CRP~06/121138)\\
+    Tayná Alencar Berti de Souza (CRP~06/83455)\\
+    Valéria Campinas Braunstein (CRP~06/31093)\\
+    Victória Soares Vidal (CRP~06/149691)\\}
+\end{CreditoInstitucional}
+\end{minipage}
+
+\CreditoInstitucionalDois{Conselheiras/os suplentes}
+
+\begin{minipage}{3cm}
+{\null}
+\end{minipage}%
+\begin{minipage}{\linewidth-3cm}
+\begin{CreditoInstitucional}
+\NomeNosCreditos{%
+    Beatris Guarita Dotta (CRP~06/143345)\\
+    Bruna Pessenda (CRP~06/137732)\\
+    Carolina Zandavalli Steinacker (CRP~06/169260)\\
+    Cecília Francini Cabral de Vasconcellos (CRP~06/135142)\\
+    Fausto Martins Geantomasse (CRP~06/81623)\\
+    Flávia Roberta Eugênio (CRP~06/113673)\\
+    Hélio Roberto Braunstein (CRP~06/32111)\\
+    Ivani Teixeira Mendes (CRP~06/42535)\\
+    Janaina Cristina Barea (CRP~06/80812)\\
+    João Paulo da Silva Reis (CRP~06/126792)\\
+    Lucas Petronilho Negrão da Silva (CRP~06/119817)\\
+    Luiz Fernando Rodrigues Novais (CRP~06/165953)\\
+    Marinaldo Fernando de Souza (CRP~06/81671)\\
+    Patricia Unger Raphael Bataglia (CRP~06/27448)\\
+    Shirley Aparecida Rocha Menezes (CRP~06/110068)\\}
+\end{CreditoInstitucional}
+\end{minipage}
+\clearpage
+
+\CreditoInstitucionalDois{Comissão de Orientação e Fiscalização (COF)}
+
+\begin{minipage}{3cm}
+{\null}
+\end{minipage}%
+\begin{minipage}{\linewidth-3cm}
+    \begin{CreditoInstitucional}
+        \begin{center}
+\CargoNosCreditos{Marilia Capponi	&  \textbf{presidenta}\\}
+        \end{center}
+\raggedright\vspace{-1.618\baselineskip}
+
+\begin{multicols}{2}
+\tiny\fontebook\raggedright
+Ana Carolina Ferreira Barbosa (CRP~06/119308)\\
+Ana Maria Brigido Lintz (CRP~06/121528)\\
+André Alexandre Adalgiso Padoveze (CRP~06/113156)\\
+Andressa Benini Mendes (CRP~06/119640)\\
+Andressa Cristina de Oliveira Guedes (CRP~06/139791)\\
+Beatris Guarita Dotta (CRP~06/143345)\\
+Bruna Pessenda (CRP~06/137732)\\
+Carolina Zandavalli Steinacker (CRP~06/169260)\\
+Cecília Francini Cabral de Vasconcellos (CRP~06/135142)\\
+Cinthia Cristina da Rosa Vilas Boas (CRP~06/104781)\\
+Cláudia Cristina Lofrano (CRP~06/44926)\\
+Débora Nascimento Santos (CRP~06/144738)\\
+Deborah Alves Lopes (CRP~06/200181)\\
+Edilson Claudino Bicudo (CRP~06/111631)\\
+Fabiana Macena Luiz (CRP~06/148611)\\
+Fausto Martins Geantomasse (CRP~06/81623)\\
+Flávia Roberta Eugênio (CRP~06/113673)\\
+Gabriel Basílio Barbosa Costa (CRP~06/185699)\\
+Genildo Gomes de Sousa (CRP~06/159297)\\
+Hélio Roberto Braunstein (CRP~06/32111)\\
+Ingrid Ribeiro Borelli (CRP~06/62897)\\
+Ivani Teixeira Mendes (CRP~06/42535)\\
+Janaina Cristina Barea (CRP~06/80812)\\
+Jean Rodrigo Gerhardt (CRP~06/212399)\\
+Jéssica Daiana de Oliveira (CRP~06/135888)\\
+João Paulo da Silva Reis (CRP~06/126792)\\
+José Ricardo Portela (CRP~06/51825) (colaborador)\\
+Karina de Cássia Bassetto (CRP~06/73314)\\
+Lilian Suzuki (CRP~06/27810)\\
+Lucas Petronilho Negrão da Silva (CRP~06/119817)\\
+Lucas Vieira Crepaldi (CRP~06/142208)\\
+Luiz Fernando Rodrigues Novais (CRP~06/165953)\\
+Luke Ribeiro Mazzei França Barros (CRP~06/188231)\\
+Luísa Thomazini de Freitas (CRP~06/159754)\\
+Marcia Ester Caldas dos Santos (CRP~06/70514) (colaboradora)\\
+Maria da Penha Tamburú Ivanchuk Lopes (CRP~06/46649)\\
+Marilia Alves dos Santos (CRP~06/144416)\\
+Marinaldo Fernando de Souza (CRP~06/81671)\\
+Natali de Souza Nascimento (CRP~06/134212)\\
+Patricia Unger Raphael Bataglia (CRP~06/27448)\\
+Paula Andréia de Carvalho Jonas (CRP~06/62340)\\
+Regiane Aparecida Piva (CRP~06/52183)\\
+Renato Becks Gomes de Mendonça Garrafa (CRP~06/153663)\\
+Rita Isabel Pereira Alves (CRP~06/121138)\\
+Rodrigo Fernando Presotto (CRP~06/86342)\\
+Shirley Aparecida Rocha Menezes (CRP~06/110068)\\
+Suely Castaldi Ortiz da Silva (CRP~06/60201)\\
+Tayná Alencar Berti de Souza (CRP~06/83455)\\
+Thainá da Silva Costa (CRP~06/149425)\\
+Thuane Angelo Silva (CRP~06/134553)\\
+Valéria Campinas Braunstein (CRP~06/31093)\\
+Victória Soares Vidal (CRP~06/149691)\\
+Wagner Ferreira da Silva (CRP~06/92838)\\
+\end{multicols}
+\end{CreditoInstitucional}
+\end{minipage}
+\clearpage
+
+\CreditoInstitucionalDois{Comissão de Comunicação (ComCom)}
+
+\begin{minipage}{3cm}
+{\null}
+\end{minipage}%
+\begin{minipage}{\linewidth-3cm}
+\begin{CreditoInstitucional}
+\CargoNosCreditos{Renato Becks Gomes de\newline Mendonça Garrafa	&  \textbf{presidente}\\}
+\raggedright%\vspace{-0.618\baselineskip}
+
+\NomeNosCreditos{%
+    Gabriel Basílio Barbosa Costa (CRP~06/185699)\\
+    Hélio Roberto Braunstein (CRP~06/32111)\\
+    Tayná Alencar Berti de Souza (CRP~06/83455)\\}
+\end{CreditoInstitucional}
+\end{minipage}
+\clearpage
+
+\CreditoInstitucionalDois{Ficha técnica}
+
+\begin{minipage}{3cm}
+{\null}
+\end{minipage}%
+\begin{minipage}{\linewidth-3cm}
+\begin{CreditoInstitucional}
+\CargoNosCreditos{%
+    Edson Ferreira Dias Junior	& \textbf{gerente de\newline \hfill Relações Institucionais}\\
+    Tais Souza	& \textbf{coordenadora}\\
+    }
+
+\CargoNosCreditos{%
+    Angelo Cuissi e Gislaine Bueno	& jornalistas\\
+    Micael Melchiades e Paulo Mota	& \textit{designers}\\
+   Jefferson Geraldo Rodrigues e\newline
+    Viviane Doneda Martins Marigo	& profissionais de suporte\newline administrativo\\
+   Anisa Feliciano e\newline Kimberly Wilians	& estagiárias de\newline Comunicação\\
+    Layza Vitoria Macedo Araújo	& jovem aprendiz\\
+    }
+\end{CreditoInstitucional}
+\end{minipage}
+
+\vspace{\fill}
+\begin{CreditoInstitucional}
+\begin{center}
+\setasuspacing{\SingleSpacing}
+\color{crp1}\footnotesize\textbf{Guia de boas práticas para apresentações acessíveis}\vspace{0.2\baselineskip}
+
+\color{black}\scriptsize\textbf{Organizado por Cecília Francini Cabral de Vasconcellos (CRP~06/135142)}
+
+\fontebook\color{crp1}Projeto gráfico \color{black}Micael Melchiades
+\vspace{-0.618\baselineskip}
+
+\color{crp1}Preparação de texto \color{black}Angelo Cuissi
+\vspace*{1.618\baselineskip}
+
+\includesvg[width=0.25\textwidth]{by.svg}
+
+\scriptsize Uma licença CC-BY foi atribuída a esta obra. São permitidas a remixagem,
+a adaptação e a criação de novas obras com o conteúdo aqui publicado,
+desde que seja dado o devido crédito à obra original.
+\end{center}
+\end{CreditoInstitucional}
+\vspace*{\fill}
+\cleartooddpage
+
+\backgroundsetup{
+scale=1,
+opacity=1,
+angle=0,
+color=black,
+contents={%
+ \ifodd\value{page}
+   \hspace*{4cm}
+   \includegraphics[margin= -3.2cm -0.4cm 0 0]
+   {bg-impar.png}
+  \else
+   \includegraphics[margin= -0.6cm -0.4cm 0 0]
+   {bg-par.png}
+  \fi}}
+
+\tableofcontents*{}\cleardoublepage
+
+\mainmatter
+\pagestyle{crp}
+\pagenumbering{arabic}
+\justifying
+
+\chapter{Introdução}
+
+O Conselho Regional de Psicologia, em seu compromisso com a promoção dos direitos humanos e a construção de uma sociedade inclusiva, apresenta este guia de boas práticas para a realização de apresentações acessíveis. A psicologia, como ciência e profissão, fundamenta-se no respeito à diversidade e na valorização da singularidade de cada indivíduo. Portanto, é imperativo que nossas práticas de comunicação e disseminação de conhecimento reflitam esses valores, garantindo que todas as pessoas, sem exceção, possam participar plenamente dos espaços de diálogo e aprendizado que promovemos.
+
+Este documento foi elaborado com o objetivo de aprofundar as orientações sobre acessibilidade em eventos, palestras e apresentações, indo além das noções básicas e oferecendo um direcionamento específico para as necessidades de pessoas com deficiência física, auditiva, visual, intelectual e Transtorno do Espectro Autista (TEA). As recomendações aqui contidas baseiam-se em manuais de referência nacional e internacional, bem como na legislação vigente, notadamente a Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015) e a Convenção Internacional sobre os Direitos das Pessoas com Deficiência.
+
+Adotar práticas acessíveis não é apenas uma questão de conformidade legal, mas um ato de empatia, respeito e responsabilidade social. Ao nos esforçarmos para eliminar as barreiras comunicacionais, atitudinais, digitais, metodológicas e arquitetônicas, contribuímos para um ambiente profissional mais ético, acolhedor e verdadeiramente inclusivo.
+
+\chapter{Acessibilidade para pessoas com deficiência física e mobilidade reduzida}
+
+Pessoas com deficiência física ou mobilidade reduzida podem utilizar recursos como cadeiras de rodas, muletas, andadores ou próteses. A acessibilidade para este público concentra-se, em grande parte, na eliminação de barreiras arquitetônicas e na garantia de autonomia e segurança durante o evento.
+
+\section{Ambiente e estrutura}
+
+\subsection{Local do Evento}
+
+Escolher locais que possuam rampas de acesso com inclinação adequada, elevadores e portas largas. Certificar-se de que todos os espaços do evento (auditório, salas de \textit{coffee break}, sanitários) sejam acessíveis.
+
+\subsection{Estacionamento}
+
+Garantir a existência de vagas de estacionamento reservadas, devidamente sinalizadas e localizadas próximas à entrada do evento.
+
+\subsection{Circulação}
+
+Manter os corredores e áreas de circulação livres de obstáculos. O piso deve ser regular, firme e antiderrapante. Evitar tapetes soltos ou fios expostos.
+
+\subsection{Sanitários}
+
+Verificar se os sanitários acessíveis estão em conformidade com as normas técnicas, incluindo barras de apoio, espaço para manobra de cadeira de rodas e altura adequada de pias e espelhos.
+
+\section{Durante a apresentação}
+
+\subsection{Auditório}
+
+Reservar espaços para cadeiras de rodas em locais estratégicos, que permitam boa visibilidade do palco e do material projetado, preferencialmente ao lado de assentos para acompanhantes. Esses espaços não devem segregar os participantes.
+
+\subsection{Mobiliário}
+
+Se houver mesas ou púlpitos, garantir que tenham altura compatível para um palestrante cadeirante. O microfone deve ser ajustável ou móvel.
+
+\subsection{Interação}
+
+Ao interagir com uma pessoa em cadeira de rodas por um tempo mais longo, se possível, sente-se para que a conversa ocorra no mesmo nível de olhar.
+
+\subsection{Materiais}
+
+Se houver distribuição de materiais impressos ou brindes, garantir que a equipe de apoio possa entregá-los diretamente às pessoas com mobilidade reduzida, ou posicioná-los em locais de fácil alcance.
+
+\chapter{Acessibilidade para pessoas com deficiência auditiva}
+
+A diversidade dentro da comunidade com deficiência auditiva é grande, incluindo pessoas surdas que se comunicam em Língua Brasileira de Sinais (Libras), surdos oralizados que fazem leitura labial, e pessoas com baixa audição que podem ou não usar aparelhos auditivos. A chave para a acessibilidade é oferecer múltiplos recursos de comunicação.
+
+\section{Recursos de comunicação}
+
+\subsection{Intérprete de Libras}
+
+Contratar intérpretes de Libras qualificados. Posicioná-los em local de destaque, com boa iluminação e fundo de cor neutra, ao lado do palestrante e da tela de projeção, garantindo que o público surdo possa ver tanto o intérprete quanto o conteúdo apresentado.
+
+\subsection{Legendas em tempo real}
+
+Disponibilizar legendas em tempo real (estenotipia ou reconhecimento de fala) em telas visíveis para todo o público. Isso beneficia não apenas pessoas com deficiência auditiva, mas também idosos e pessoas com outras dificuldades de compreensão.
+
+\subsection{Sistemas de escuta assistida}
+
+Oferecer sistemas como o colar de indução magnética (\textit{loop} magnético) para quem usa aparelho auditivo ou implante coclear. Informar sobre a disponibilidade deste recurso na divulgação do evento.
+
+\section{Durante a apresentação}
+
+\subsection{Palestrante}
+
+Falar de frente para o público, de forma clara e pausada, sem cobrir a boca. Isso facilita a leitura labial. Manter contato visual com toda a plateia, incluindo as pessoas surdas, mesmo ao se comunicar através do intérprete.
+
+\subsection{Comunicação}
+
+Dirigir-se diretamente à pessoa surda, e não ao intérprete. Por exemplo, diga ``Qual a sua opinião?'' em vez de ``Pergunte a ele qual a opinião dele''.
+
+\subsection{Recursos visuais}
+
+Utilizar \textit{slides} e outros recursos visuais para reforçar a informação verbal. Evitar falar enquanto estiver de costas para o público (por exemplo, ao escrever em um quadro).
+
+\subsection{Interação com o público}
+
+Em sessões de perguntas e respostas, garantir que as perguntas feitas pela plateia sejam repetidas no microfone pelo moderador ou palestrante antes de serem respondidas, para que todos, incluindo o intérprete e os estenotipistas, possam compreendê-las.
+
+\chapter{Acessibilidade para pessoas com deficiência visual}
+
+Este grupo inclui pessoas cegas e com baixa visão, que possuem diferentes necessidades. A acessibilidade é promovida por meio de recursos que traduzem o conteúdo visual em formatos táteis ou sonoros e pela adoção de boas práticas de design e comunicação verbal.
+
+\section{Recursos e materiais}
+
+\subsection{Audiodescrição}
+
+Contratar um audiodescritor profissional para descrever verbalmente os elementos visuais da apresentação (\textit{slides}, imagens, vídeos, ações do palestrante) em tempo real. A descrição deve ser concisa e objetiva, inserida nas pausas naturais da fala.
+
+\subsection{Materiais em formatos acessíveis}
+
+Disponibilizar os materiais da apresentação (\textit{slides}, apostilas) em formatos acessíveis, como arquivos de texto (.docx ou .txt) que possam ser lidos por \textit{softwares} leitores de tela, ou em Braille para quem solicitar.
+
+\subsection{Fonte ampliada e contraste}
+
+Para pessoas com baixa visão, utilizar fontes grandes (mínimo 24pt) e sem serifa (ex: Arial, Verdana) nos \textit{slides}. Garantir um alto contraste entre o texto e o fundo (ex: texto preto em fundo branco, ou texto branco/amarelo em fundo escuro). Evitar o uso de fundos com muitas imagens ou texturas.
+
+\section{Durante a apresentação}
+
+\subsection{Autodescrição}
+
+Iniciar a apresentação com uma breve autodescrição (características físicas, roupa que está vestindo). Isso ajuda a pessoa com deficiência visual a criar uma imagem mental do palestrante. Ex: ``Bom dia, sou a Cecilia, uma mulher branca de cabelos castanhos na altura dos ombros, estou usando um vestido azul e óculos de armação preta.''
+
+\subsection{Falar fora do microfone}
+
+Falar fora do microfone antes de começar a palestra, para que a pessoa com deficiência visual possa distinguir de onde vem o som e olhar em direção ao comunicador, caso queira.
+
+\subsection{Descrição verbal}
+
+Descrever verbalmente todo o conteúdo visual relevante apresentado nos \textit{slides}. Ler os textos, descrever gráficos (``Este é um gráfico de pizza que mostra que 50\% dos participantes\ldots'') e imagens (``Nesta foto, vemos um grupo de crianças brincando em um parque''). Não presuma que todos estão vendo o que você está mostrando.
+
+\subsection{Comunicação}
+
+Evitar usar expressões que dependem da visão, como ``como vocês podem ver aqui'' ou ``deste lado da sala''. Prefira ser mais descritivo, como ``no \textit{slide} atual, o item à esquerda\ldots''
+
+\subsection{Cão-guia}
+
+O cão-guia é um animal de trabalho e não deve ser distraído, tocado ou alimentado sem a permissão do seu dono. Garantir que haja espaço suficiente para o cão se acomodar confortavelmente ao lado do seu dono.
+
+\chapter{Acessibilidade para pessoas com deficiência intelectual}
+
+A deficiência intelectual refere-se a um funcionamento intelectual significativamente inferior à média, que se manifesta antes dos 18 anos e coexiste com limitações em duas ou mais áreas de habilidades adaptativas. A acessibilidade para este público foca na clareza, objetividade e simplicidade da comunicação, um conceito conhecido como acessibilidade cognitiva.
+
+\section{Linguagem e conteúdo}
+
+\subsection{Linguagem Simples}
+
+Utilizar a abordagem de Linguagem Simples (ou \textit{Easy Read}). Isso envolve o uso de palavras comuns e familiares, frases curtas e diretas, e a organização do texto de forma lógica e clara. Evitar jargões, metáforas e conceitos abstratos sem a devida explicação com exemplos concretos.
+
+\subsection{Estrutura da informação}
+
+Apresentar uma ideia por frase. Organizar o conteúdo em tópicos e usar títulos descritivos. Fornecer um resumo dos pontos principais no início e no final da apresentação.
+
+\subsection{Apoios visuais}
+
+Usar imagens, ícones e pictogramas para complementar e reforçar a informação textual. As imagens devem ser claras, objetivas e diretamente relacionadas ao conteúdo que ilustram.
+
+\section{Durante a apresentação}
+
+\subsection{Ritmo e repetição}
+
+Falar de forma pausada e calma. Repetir as informações mais importantes de diferentes maneiras para auxiliar na compreensão e memorização.
+
+\subsection{Interação}
+
+Fazer perguntas diretas e oferecer tempo suficiente para a pessoa formular a resposta. Evitar infantilizar a linguagem ou o tratamento; a comunicação deve ser simples, mas sempre respeitosa e adequada a um público adulto.
+
+\subsection{Validação}
+
+Sempre que possível, validar os materiais e a abordagem com pessoas com deficiência intelectual. O \textit{feedback} do próprio público é a ferramenta mais valiosa para garantir a eficácia da comunicação.
+
+\subsection{Foco}
+
+Manter o foco no essencial. Evitar excesso de informações ou desvios do tema principal, que podem dificultar o acompanhamento do raciocínio.
+
+\chapter{Acessibilidade para pessoas com transtorno do espectro autista (TEA)}
+
+O transtorno do espectro autista (TEA) é uma condição do neurodesenvolvimento que afeta a comunicação, a interação social e o comportamento. Pessoas no espectro autista podem ter uma sensibilidade sensorial aguçada, preferência por rotinas e uma forma literal de processar a linguagem. A acessibilidade, neste caso, envolve a criação de um ambiente previsível, calmo e com comunicação clara.
+
+\section{Ambiente e comunicação}
+
+\subsection{Previsibilidade}
+
+Fornecer informações claras e antecipadas sobre o evento: programação, duração das palestras, horários de intervalo, mapa do local. Isso ajuda a reduzir a ansiedade e a sobrecarga sensorial.
+
+\subsection{Estímulos sensoriais}
+
+Evitar ambientes com excesso de estímulos. Preferir iluminação natural ou ajustável. Manter o volume do som em um nível moderado. Evitar luzes piscando, ruídos altos ou repentinos e cheiros fortes.
+
+\subsection{Espaço de descompressão}
+
+Se possível, designar uma sala ou espaço tranquilo, com poucos estímulos, para onde os participantes possam ir caso se sintam sobrecarregados e precisem de um momento para se regular.
+
+\subsection{\textit{Layout} e cores}
+
+Construir \textit{layouts} simples e consistentes para os \textit{slides}. Usar cores suaves e evitar o uso de cores muito brilhantes e contrastantes, que podem ser visualmente cansativas ou perturbadoras.
+
+\section{Durante a apresentação}
+
+\subsection{Linguagem}
+
+Utilizar linguagem clara, direta e literal. Evitar o uso de figuras de linguagem, expressões idiomáticas, sarcasmo ou piadas, que podem ser interpretados de forma literal e causar confusão.
+
+\subsection{Estrutura}
+
+Apresentar a informação de forma estruturada e lógica, usando frases simples e tópicos. Evitar ``muros de texto'' nos \textit{slides}.
+
+\subsection{Interação}
+
+Ser explícito na comunicação. Por exemplo, em vez de dizer ``Alguém tem alguma pergunta?'', pode-se dizer ``Agora vamos abrir para 10 minutos de perguntas. Se você tiver uma pergunta, por favor, levante a mão.''
+
+\subsection{Foco}
+
+Manter-se no tópico. Evitar mudanças bruscas de assunto. Se for necessário introduzir um novo tópico, anuncie a transição claramente.
+
+\chapter{Conclusão}
+
+A construção de uma psicologia e de uma sociedade verdadeiramente anticapacitista passa, necessariamente, pela adoção de práticas cotidianas de inclusão. A comunicação é uma ferramenta central em nosso trabalho, e torná-la acessível é um passo fundamental para garantir a participação social e o acesso ao conhecimento para todas as pessoas.
+
+Este guia não pretende ser um manual exaustivo, mas um ponto de partida e um convite à reflexão e à ação. A acessibilidade é um campo em constante evolução, e a melhor prática será sempre a escuta atenta às necessidades do outro e a disposição para adaptar-se. Ao planejar e executar nossas apresentações com sensibilidade e cuidado, reforçamos nosso compromisso ético com a dignidade e a diversidade humana.
+
+Contamos com o engajamento de todas e todos os profissionais da psicologia para que este guia se traduza em práticas concretas e transformadoras.
+
+\backmatter
+\pagestyle{crp}
+
+\chapter*{Referências}
+\addcontentsline{toc}{chapter}{Referências}
+
+\begin{blocaosingle}
+\noindent
+[1] BRASIL. \textbf{Lei Nº 13.146, de 6 de julho de 2015}. Institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência). Disponível em: \url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm}
+
+\vspace{\baselineskip}
+
+\noindent
+[2] BRASIL. \textbf{Decreto Nº 6.949, de 25 de agosto de 2009}. Promulga a Convenção Internacional sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, assinados em Nova York, em 30 de março de 2007. Disponível em: \url{https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm}
+
+\vspace{\baselineskip}
+
+\noindent
+[3] PREFEITURA DE SÃO PAULO. \textbf{Guia de Comunicação e Eventos Acessíveis}. Secretaria Municipal da Pessoa com Deficiência. Disponível em: \url{https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/GUIA_COMUNICACAO_EVENTOS_ACESSIVEIS_PDF_AC_BAIXA.pdf}
+
+\vspace{\baselineskip}
+
+\noindent
+[4] GOV.UK. \textbf{\textit{Dos and don'ts on designing for accessibility}}. \textit{Government Digital Service}. Disponível em: \url{https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/}
+
+\vspace{\baselineskip}
+
+\noindent
+[5] MINISTÉRIO DOS DIREITOS HUMANOS E DA CIDADANIA. \textbf{Manual de Acessibilidade em Eventos Presenciais}. Secretaria Nacional dos Direitos da Pessoa com Deficiência. Disponível em: \url{https://www.gov.br/mdh/pt-br/navegue-por-temas/pessoa-com-deficiencia/publicacoes/manual-de-acessibilidade-em-eventos-presenciais/Manual_acessibilidade_eventos_presenciais_DIGITAL__1_.pdf}
+\end{blocaosingle}
+
+\end{document}

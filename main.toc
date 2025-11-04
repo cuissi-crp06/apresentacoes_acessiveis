@@ -1,0 +1,59 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\MakeTextUppercase []{Introdução}}{1}{chapter*.2}%
+\contentsline {chapter}{\MakeTextUppercase []{Acessibilidade para pessoas com deficiência física e mobilidade reduzida}}{3}{chapter*.3}%
+\contentsline {section}{Ambiente e estrutura}{3}{section*.4}%
+\contentsline {subsection}{Local do Evento}{3}{section*.5}%
+\contentsline {subsection}{Estacionamento}{4}{section*.6}%
+\contentsline {subsection}{Circulação}{4}{section*.7}%
+\contentsline {subsection}{Sanitários}{4}{section*.8}%
+\contentsline {section}{Durante a apresentação}{4}{section*.9}%
+\contentsline {subsection}{Auditório}{4}{section*.10}%
+\contentsline {subsection}{Mobiliário}{4}{section*.11}%
+\contentsline {subsection}{Interação}{5}{section*.12}%
+\contentsline {subsection}{Materiais}{5}{section*.13}%
+\contentsline {chapter}{\MakeTextUppercase []{Acessibilidade para pessoas com deficiência auditiva}}{7}{chapter*.14}%
+\contentsline {section}{Recursos de comunicação}{7}{section*.15}%
+\contentsline {subsection}{Intérprete de Libras}{7}{section*.16}%
+\contentsline {subsection}{Legendas em tempo real}{8}{section*.17}%
+\contentsline {subsection}{Sistemas de escuta assistida}{8}{section*.18}%
+\contentsline {section}{Durante a apresentação}{8}{section*.19}%
+\contentsline {subsection}{Palestrante}{8}{section*.20}%
+\contentsline {subsection}{Comunicação}{8}{section*.21}%
+\contentsline {subsection}{Recursos visuais}{9}{section*.22}%
+\contentsline {subsection}{Interação com o público}{9}{section*.23}%
+\contentsline {chapter}{\MakeTextUppercase []{Acessibilidade para pessoas com deficiência visual}}{11}{chapter*.24}%
+\contentsline {section}{Recursos e materiais}{11}{section*.25}%
+\contentsline {subsection}{Audiodescrição}{11}{section*.26}%
+\contentsline {subsection}{Materiais em formatos acessíveis}{12}{section*.27}%
+\contentsline {subsection}{Fonte ampliada e contraste}{12}{section*.28}%
+\contentsline {section}{Durante a apresentação}{12}{section*.29}%
+\contentsline {subsection}{Autodescrição}{12}{section*.30}%
+\contentsline {subsection}{Falar fora do microfone}{12}{section*.31}%
+\contentsline {subsection}{Descrição verbal}{13}{section*.32}%
+\contentsline {subsection}{Comunicação}{13}{section*.33}%
+\contentsline {subsection}{Cão-guia}{13}{section*.34}%
+\contentsline {chapter}{\MakeTextUppercase []{Acessibilidade para pessoas com deficiência intelectual}}{15}{chapter*.35}%
+\contentsline {section}{Linguagem e conteúdo}{15}{section*.36}%
+\contentsline {subsection}{Linguagem Simples}{15}{section*.37}%
+\contentsline {subsection}{Estrutura da informação}{16}{section*.38}%
+\contentsline {subsection}{Apoios visuais}{16}{section*.39}%
+\contentsline {section}{Durante a apresentação}{16}{section*.40}%
+\contentsline {subsection}{Ritmo e repetição}{16}{section*.41}%
+\contentsline {subsection}{Interação}{16}{section*.42}%
+\contentsline {subsection}{Validação}{17}{section*.43}%
+\contentsline {subsection}{Foco}{17}{section*.44}%
+\contentsline {chapter}{\MakeTextUppercase []{Acessibilidade para pessoas com transtorno do espectro autista (TEA)}}{19}{chapter*.45}%
+\contentsline {section}{Ambiente e comunicação}{19}{section*.46}%
+\contentsline {subsection}{Previsibilidade}{19}{section*.47}%
+\contentsline {subsection}{Estímulos sensoriais}{20}{section*.48}%
+\contentsline {subsection}{Espaço de descompressão}{20}{section*.49}%
+\contentsline {subsection}{\textit {Layout} e cores}{20}{section*.50}%
+\contentsline {section}{Durante a apresentação}{20}{section*.51}%
+\contentsline {subsection}{Linguagem}{20}{section*.52}%
+\contentsline {subsection}{Estrutura}{21}{section*.53}%
+\contentsline {subsection}{Interação}{21}{section*.54}%
+\contentsline {subsection}{Foco}{21}{section*.55}%
+\contentsline {chapter}{\MakeTextUppercase []{Conclusão}}{23}{chapter*.56}%
+\vspace {\cftbeforechapterskip }
+\contentsline {chapter}{Referências}{25}{chapter*.58}%
